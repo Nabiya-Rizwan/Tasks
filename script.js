@@ -1,41 +1,18 @@
-console.log("nabiya");
-
-  let userName =document.getElementById("userName")
- let userEmail =document.getElementById("userEmail")
-
+// ------------------------WGHILE LOOP------------------
+// ------------------------&---------------_------------
+// ----------------------DO WHILE LOOP---------------
  
-  let userNamedash =document.getElementById("userNamedash")
- let  userEmaildash=document.getElementById("userEmaildash")
 
+let i =0;
+while ( i=>2) {
+  console.log(i);
+  i++ 
+}
 
- function inputRender(){
-  console.log(userName.value)
-  console.log(userEmail.value)
-
-
-
-  localStorage.setItem("userName", userName.value)
-  localStorage.setItem("userEmail", userEmail.value)
-
-
-  userName.value="";
-  userEmail.value="";
- }
-
-
-
-
- function dashre(){
-
-   
-   let storedName = localStorage.getItem("userName");
-   let storedEmail = localStorage.getItem("userEmail");
-   
-
-    userNamedash.innerText = "User Name: " + storedName;
-    userEmaildash.innerText = "User Email: " + storedEmail;
-  
- }
-dashre();
+let a =0
+do {
+  console.log(a)
+  a++
+} while (a<2);
 
 
